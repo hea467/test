@@ -1,0 +1,46 @@
+.menu{
+    display: flex;
+    padding:20px;
+    justify-content: space-between;
+}
+
+.menu>div{
+    margin-right: 120px;
+    margin-left: 120px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.menu-link{
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.menu-link:hover{
+    border-bottom: 1px solid darkblue;
+}
+
+.menu-link a{
+    color: rgb(76, 137, 207);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.menu-link a:hover{
+    color: darkblue;
+}
+.textblock{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.center {
+    text-align: center
+}
+
+body{padding-bottom: 100px;}
+
+.title{
+    height: 20pt;
+    color:cornflowerblue;
+}
